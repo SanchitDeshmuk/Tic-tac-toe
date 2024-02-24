@@ -42,8 +42,8 @@ for(let box of boxes){
         }
         turn = !turn;
         box.disabled = true;
-        checkWinner();
         checkFilled();
+        checkWinner();
     })
 }
 
